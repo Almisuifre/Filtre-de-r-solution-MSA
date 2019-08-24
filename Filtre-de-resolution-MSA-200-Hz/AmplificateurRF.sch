@@ -1,33 +1,34 @@
 EESchema Schematic File Version 4
+LIBS:Filtre-de-resolution-MSA-200-Hz-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
-Date ""
-Rev ""
+Title "Filtre de résolution 10.7 MHz MSA"
+Date "2019-08-25"
+Rev "1.0"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "F1OKU"
+Comment2 "F4HYU"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1000 5000 0    50   Input ~ 0
+Text HLabel 1000 5000 0    50   Input ~ 10
 Input
-Text HLabel 10500 5000 2    50   Input ~ 0
+Text HLabel 10500 5000 2    50   Input ~ 10
 Output
-Text HLabel 1000 1000 0    50   Input ~ 0
+Text HLabel 1000 1000 0    50   Input ~ 10
 GND
-Text HLabel 1000 1150 0    50   Input ~ 0
+Text HLabel 1000 1150 0    50   Input ~ 10
 5V
 Wire Wire Line
 	1000 1000 1500 1000
 Wire Wire Line
 	1000 1150 1500 1150
-Text Label 1500 1150 2    50   ~ 0
+Text Label 1500 1150 2    50   ~ 10
 5V
-Text Label 1500 1000 2    50   ~ 0
+Text Label 1500 1000 2    50   ~ 10
 GND
 $Comp
 L resistance_0805:Resistance R1
@@ -62,20 +63,9 @@ F 3 "" H 2300 3200 50  0001 C CNN
 	1    2300 3200
 	0    -1   -1   0   
 $EndComp
-$Comp
-L condensateur_0805:C Condensateur7
-U 1 1 5D65CEF6
-P 1500 3250
-F 0 "Condensateur7" V 1546 3166 50  0000 R CNN
-F 1 "1µF" V 1455 3166 50  0000 R CNN
-F 2 "Kicad-Empreintes:condensateur_0805" H 1500 3050 50  0001 C CNN
-F 3 "" H 1500 3250 50  0001 C CNN
-	1    1500 3250
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1500 3000 1500 2800
-Text Label 1500 2500 3    50   ~ 0
+Text Label 1500 2500 3    50   ~ 10
 GND
 Wire Wire Line
 	1500 2800 2300 2800
@@ -121,20 +111,9 @@ Wire Wire Line
 Connection ~ 4000 3700
 Wire Wire Line
 	4000 3700 4500 3700
-Text Label 4000 2500 3    50   ~ 0
+Text Label 4000 2500 3    50   ~ 10
 5V
-$Comp
-L condensateur_0805:C Condensateur9
-U 1 1 5D6625D9
-P 5750 3700
-F 0 "Condensateur9" H 5750 3925 50  0000 C CNN
-F 1 "100 nF" H 5750 3834 50  0000 C CNN
-F 2 "Kicad-Empreintes:condensateur_0805" H 5750 3500 50  0001 C CNN
-F 3 "" H 5750 3700 50  0001 C CNN
-	1    5750 3700
-	1    0    0    -1  
-$EndComp
-Text Label 6500 3700 2    50   ~ 0
+Text Label 6500 3700 2    50   ~ 10
 GND
 Wire Wire Line
 	6000 3700 6500 3700
@@ -166,18 +145,7 @@ F 3 "" H 3700 5500 50  0001 C CNN
 	1    3700 5500
 	1    0    0    -1  
 $EndComp
-$Comp
-L condensateur_0805:C Condensateur8
-U 1 1 5D666981
-P 2750 5500
-F 0 "Condensateur8" H 2750 5725 50  0000 C CNN
-F 1 "100 nF" H 2750 5634 50  0000 C CNN
-F 2 "Kicad-Empreintes:condensateur_0805" H 2750 5300 50  0001 C CNN
-F 3 "" H 2750 5500 50  0001 C CNN
-	1    2750 5500
-	1    0    0    -1  
-$EndComp
-Text Label 2000 5500 0    50   ~ 0
+Text Label 2000 5500 0    50   ~ 10
 GND
 Wire Wire Line
 	4850 5200 4500 5200
@@ -211,7 +179,7 @@ Wire Wire Line
 	7000 5100 7000 6000
 Wire Wire Line
 	7000 6000 6600 6000
-Text Label 5350 5800 1    50   ~ 0
+Text Label 5350 5800 1    50   ~ 10
 GND
 Wire Wire Line
 	5350 5500 5350 5800
@@ -247,4 +215,37 @@ $EndComp
 Wire Wire Line
 	5150 3700 5350 3700
 Connection ~ 5350 3700
+$Comp
+L condensateur_0805:Condensateur C7
+U 1 1 5D62835A
+P 1500 3250
+F 0 "C7" V 1454 3338 50  0000 L CNN
+F 1 "1 µF" V 1545 3338 50  0000 L CNN
+F 2 "Kicad-Empreintes:condensateur_0805" H 1500 3050 50  0001 C CNN
+F 3 "" H 1500 3250 50  0001 C CNN
+	1    1500 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L condensateur_0805:Condensateur C9
+U 1 1 5D629063
+P 5750 3700
+F 0 "C9" H 5750 3925 50  0000 C CNN
+F 1 "100 nF" H 5750 3834 50  0000 C CNN
+F 2 "Kicad-Empreintes:condensateur_0805" H 5750 3500 50  0001 C CNN
+F 3 "" H 5750 3700 50  0001 C CNN
+	1    5750 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L condensateur_0805:Condensateur C8
+U 1 1 5D629D47
+P 2750 5500
+F 0 "C8" H 2750 5725 50  0000 C CNN
+F 1 "100 nF" H 2750 5634 50  0000 C CNN
+F 2 "Kicad-Empreintes:condensateur_0805" H 2750 5300 50  0001 C CNN
+F 3 "" H 2750 5500 50  0001 C CNN
+	1    2750 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

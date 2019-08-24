@@ -118,11 +118,24 @@ X ~ 6 -350 150 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# condensateur_0805_C
+# Via-Masse_ViaGround
 #
-DEF condensateur_0805_C Condensateur 0 40 Y Y 1 F N
-F0 "Condensateur" 0 -100 50 H V C CNN
-F1 "condensateur_0805_C" 0 100 50 H V C CNN
+DEF ~Via-Masse_ViaGround VG 0 40 Y Y 1 F N
+F0 "VG" 0 -100 50 H I C CNN
+F1 "Via-Masse_ViaGround" 0 150 50 H I C CNN
+F2 "Kicad-Empreintes:ViaGround" 0 250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 50 0 50 0 1 0 N
+X ~ 1 -200 0 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# condensateur_0805_Condensateur
+#
+DEF condensateur_0805_Condensateur C 0 40 Y Y 1 F N
+F0 "C" 0 -100 50 H V C CNN
+F1 "condensateur_0805_Condensateur" 0 100 50 H V C CNN
 F2 "Kicad-Empreintes:condensateur_0805" 0 -200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

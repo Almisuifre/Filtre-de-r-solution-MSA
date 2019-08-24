@@ -7,4 +7,5 @@
   (lib (name SOT-23)(type Legacy)(uri C:/Users/Alexandre/Documents/GitHub/Filtre-de-resolution-MSA/Bibliotheque-Kicad-Schema/SOT-23.lib)(options "")(descr ""))
   (lib (name Transformateur)(type Legacy)(uri C:/Users/Alexandre/Documents/GitHub/Filtre-de-resolution-MSA/Bibliotheque-Kicad-Schema/Transformateur.lib)(options "")(descr ""))
   (lib (name Connecteurs)(type Legacy)(uri C:/Users/Alexandre/Documents/GitHub/Filtre-de-resolution-MSA/Bibliotheque-Kicad-Schema/Connecteurs.lib)(options "")(descr ""))
+  (lib (name Via-Masse)(type Legacy)(uri C:/Users/Alexandre/Documents/GitHub/Filtre-de-resolution-MSA/Bibliotheque-Kicad-Schema/Via-Masse.lib)(options "")(descr ""))
 )

@@ -1,15 +1,16 @@
 EESchema Schematic File Version 4
+LIBS:Filtre-de-resolution-MSA-200-Hz-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title ""
-Date ""
-Rev ""
+Title "Filtre de résolution 10.7 MHz MSA"
+Date "2019-08-25"
+Rev "1.0"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "F1OKU"
+Comment2 "F4HYU"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -23,17 +24,6 @@ F 2 "Kicad-Empreintes:SMA_Molex_73251-2200_Horizontal" H 850 3350 50  0001 C CNN
 F 3 "" H 850 3350 50  0001 C CNN
 	1    1000 3000
 	-1   0    0    -1  
-$EndComp
-$Comp
-L condensateur_0805:C Condensateur1
-U 1 1 5D61AF18
-P 1750 3000
-F 0 "Condensateur1" H 1750 3225 50  0000 C CNN
-F 1 "100 nF" H 1750 3134 50  0000 C CNN
-F 2 "Kicad-Empreintes:condensateur_0805" H 1750 2800 50  0001 C CNN
-F 3 "" H 1750 3000 50  0001 C CNN
-	1    1750 3000
-	1    0    0    -1  
 $EndComp
 $Sheet
 S 2500 2500 1000 1000
@@ -55,17 +45,6 @@ F 3 "" H 10550 3350 50  0001 C CNN
 	1    10700 3000
 	1    0    0    -1  
 $EndComp
-$Comp
-L condensateur_0805:C Condensateur2
-U 1 1 5D6506E3
-P 9750 3000
-F 0 "Condensateur2" H 9750 3225 50  0000 C CNN
-F 1 "100 nF" H 9750 3134 50  0000 C CNN
-F 2 "Kicad-Empreintes:condensateur_0805" H 9750 2800 50  0001 C CNN
-F 3 "" H 9750 3000 50  0001 C CNN
-	1    9750 3000
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 5000 2500 1000 1000
 U 5D653437
@@ -75,15 +54,6 @@ F2 "Input" I L 5000 3000 50
 F3 "Output" I R 6000 3000 50 
 F4 "GND" I L 5000 3450 50 
 F5 "5V" I L 5000 3350 50 
-$EndSheet
-$Sheet
-S 8000 2500 1000 1000
-U 5D655E6A
-F0 "sheet5D655E65" 50
-F1 "Cellule-Filtre.sch" 50
-F2 "Input" I L 8000 3000 50 
-F3 "Output" I R 9000 3000 50 
-F4 "GND" I R 9000 3350 50 
 $EndSheet
 Wire Wire Line
 	3500 3000 5000 3000
@@ -158,4 +128,37 @@ F 3 "" H 5000 5100 50  0001 C CNN
 	1    5000 5100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4500 3350 5000 3350
+$Comp
+L condensateur_0805:Condensateur C1
+U 1 1 5D61B612
+P 1750 3000
+F 0 "C1" H 1750 3225 50  0000 C CNN
+F 1 "100 nF" H 1750 3134 50  0000 C CNN
+F 2 "Kicad-Empreintes:condensateur_0805" H 1750 2800 50  0001 C CNN
+F 3 "" H 1750 3000 50  0001 C CNN
+	1    1750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L condensateur_0805:Condensateur C2
+U 1 1 5D61BCA7
+P 9750 3000
+F 0 "C2" H 9750 3225 50  0000 C CNN
+F 1 "100 nF" H 9750 3134 50  0000 C CNN
+F 2 "Kicad-Empreintes:condensateur_0805" H 9750 2800 50  0001 C CNN
+F 3 "" H 9750 3000 50  0001 C CNN
+	1    9750 3000
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 8000 2500 1000 1000
+U 5D62740D
+F0 "sheet5D627408" 50
+F1 "Cellule-Filtre.sch" 50
+F2 "Input" I L 8000 3000 50 
+F3 "Output" I R 9000 3000 50 
+F4 "GND" I R 9000 3350 50 
+$EndSheet
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-16040312934926663
+16041879648321688
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -47956,6 +47956,13 @@ T1-1I-KK81_plus
 0
 6
 6
+Kicad-Empreintes
+ViaGround
+
+
+0
+1
+1
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# C
+# Condensateur
 #
-DEF C Condensateur 0 40 Y Y 1 F N
-F0 "Condensateur" 0 -100 50 H V C CNN
-F1 "C" 0 100 50 H V C CNN
+DEF Condensateur C 0 40 Y Y 1 F N
+F0 "C" 0 -100 50 H V C CNN
+F1 "Condensateur" 0 100 50 H V C CNN
 F2 "Kicad-Empreintes:condensateur_0805" 0 -200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

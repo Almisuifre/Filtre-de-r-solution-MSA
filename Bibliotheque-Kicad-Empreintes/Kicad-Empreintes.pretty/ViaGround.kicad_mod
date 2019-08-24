@@ -1,0 +1,9 @@
+(module ViaGround (layer F.Cu) (tedit 5D61C35A)
+  (fp_text reference REF** (at 0 -2) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value ViaGround (at 0 -4) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.2 1.2) (drill 0.8) (layers *.Cu *.Mask))
+)

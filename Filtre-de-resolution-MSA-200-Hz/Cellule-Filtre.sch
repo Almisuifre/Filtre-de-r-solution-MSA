@@ -1,15 +1,16 @@
 EESchema Schematic File Version 4
+LIBS:Filtre-de-resolution-MSA-200-Hz-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title ""
-Date ""
-Rev ""
+Title "Filtre de résolution 10.7 MHz MSA"
+Date "2019-08-25"
+Rev "1.0"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "F1OKU"
+Comment2 "F4HYU"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -20,7 +21,8 @@ P 2200 3000
 AR Path="/5D63538B" Ref="X?"  Part="1" 
 AR Path="/5D63056E/5D63538B" Ref="X1"  Part="1" 
 AR Path="/5D64F72B/5D63538B" Ref="X?"  Part="1" 
-AR Path="/5D655E6A/5D63538B" Ref="X5"  Part="1" 
+AR Path="/5D655E6A/5D63538B" Ref="X?"  Part="1" 
+AR Path="/5D62740D/5D63538B" Ref="X5"  Part="1" 
 F 0 "X5" H 2200 3272 50  0000 C CNN
 F 1 "10.7 MHz" H 2200 3181 50  0000 C CNN
 F 2 "Kicad-Empreintes:quartz-HC48_HC49" H 2200 2750 50  0001 C CNN
@@ -35,42 +37,13 @@ P 5750 3500
 AR Path="/5D635391" Ref="T?"  Part="1" 
 AR Path="/5D63056E/5D635391" Ref="T1"  Part="1" 
 AR Path="/5D64F72B/5D635391" Ref="T?"  Part="1" 
-AR Path="/5D655E6A/5D635391" Ref="T2"  Part="1" 
+AR Path="/5D655E6A/5D635391" Ref="T?"  Part="1" 
+AR Path="/5D62740D/5D635391" Ref="T2"  Part="1" 
 F 0 "T2" H 5750 3875 50  0000 C CNN
 F 1 "T1-1T-KK81+" H 5750 3784 50  0000 C CNN
 F 2 "Kicad-Empreintes:T1-1I-KK81_plus" H 5600 3400 50  0001 C CNN
 F 3 "" H 5600 3400 50  0001 C CNN
 	1    5750 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L condensateur_0805:C Condensateur?
-U 1 1 5D635397
-P 3650 2650
-AR Path="/5D635397" Ref="Condensateur?"  Part="1" 
-AR Path="/5D63056E/5D635397" Ref="Condensateur3"  Part="1" 
-AR Path="/5D64F72B/5D635397" Ref="Condensateur?"  Part="1" 
-AR Path="/5D655E6A/5D635397" Ref="Condensateur10"  Part="1" 
-F 0 "Condensateur10" H 3650 2875 50  0000 C CNN
-F 1 "100 pF" H 3650 2784 50  0000 C CNN
-F 2 "Kicad-Empreintes:condensateur_0805" H 3650 2450 50  0001 C CNN
-F 3 "" H 3650 2650 50  0001 C CNN
-	1    3650 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L condensateur_0805:C Condensateur?
-U 1 1 5D63539D
-P 3650 3000
-AR Path="/5D63539D" Ref="Condensateur?"  Part="1" 
-AR Path="/5D63056E/5D63539D" Ref="Condensateur4"  Part="1" 
-AR Path="/5D64F72B/5D63539D" Ref="Condensateur?"  Part="1" 
-AR Path="/5D655E6A/5D63539D" Ref="Condensateur11"  Part="1" 
-F 0 "Condensateur11" H 3650 3225 50  0000 C CNN
-F 1 "220 pF" H 3650 3134 50  0000 C CNN
-F 2 "Kicad-Empreintes:condensateur_0805" H 3650 2800 50  0001 C CNN
-F 3 "" H 3650 3000 50  0001 C CNN
-	1    3650 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -80,7 +53,8 @@ P 2200 4000
 AR Path="/5D6353A3" Ref="X?"  Part="1" 
 AR Path="/5D63056E/5D6353A3" Ref="X2"  Part="1" 
 AR Path="/5D64F72B/5D6353A3" Ref="X?"  Part="1" 
-AR Path="/5D655E6A/5D6353A3" Ref="X6"  Part="1" 
+AR Path="/5D655E6A/5D6353A3" Ref="X?"  Part="1" 
+AR Path="/5D62740D/5D6353A3" Ref="X6"  Part="1" 
 F 0 "X6" H 2200 4272 50  0000 C CNN
 F 1 "10.7 MHz" H 2200 4181 50  0000 C CNN
 F 2 "Kicad-Empreintes:quartz-HC48_HC49" H 2200 3750 50  0001 C CNN
@@ -95,7 +69,8 @@ P 9200 3000
 AR Path="/5D6353A9" Ref="X?"  Part="1" 
 AR Path="/5D63056E/5D6353A9" Ref="X3"  Part="1" 
 AR Path="/5D64F72B/5D6353A9" Ref="X?"  Part="1" 
-AR Path="/5D655E6A/5D6353A9" Ref="X7"  Part="1" 
+AR Path="/5D655E6A/5D6353A9" Ref="X?"  Part="1" 
+AR Path="/5D62740D/5D6353A9" Ref="X7"  Part="1" 
 F 0 "X7" H 9200 3272 50  0000 C CNN
 F 1 "10.7 MHz" H 9200 3181 50  0000 C CNN
 F 2 "Kicad-Empreintes:quartz-HC48_HC49" H 9200 2750 50  0001 C CNN
@@ -110,7 +85,8 @@ P 9200 4000
 AR Path="/5D6353AF" Ref="X?"  Part="1" 
 AR Path="/5D63056E/5D6353AF" Ref="X4"  Part="1" 
 AR Path="/5D64F72B/5D6353AF" Ref="X?"  Part="1" 
-AR Path="/5D655E6A/5D6353AF" Ref="X8"  Part="1" 
+AR Path="/5D655E6A/5D6353AF" Ref="X?"  Part="1" 
+AR Path="/5D62740D/5D6353AF" Ref="X8"  Part="1" 
 F 0 "X8" H 9200 4272 50  0000 C CNN
 F 1 "10.7 MHz" H 9200 4181 50  0000 C CNN
 F 2 "Kicad-Empreintes:quartz-HC48_HC49" H 9200 3750 50  0001 C CNN
@@ -118,49 +94,14 @@ F 3 "" H 9200 4000 50  0001 C CNN
 	1    9200 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L condensateur_0805:C Condensateur?
-U 1 1 5D6353B5
-P 7650 4400
-AR Path="/5D6353B5" Ref="Condensateur?"  Part="1" 
-AR Path="/5D63056E/5D6353B5" Ref="Condensateur6"  Part="1" 
-AR Path="/5D64F72B/5D6353B5" Ref="Condensateur?"  Part="1" 
-AR Path="/5D655E6A/5D6353B5" Ref="Condensateur13"  Part="1" 
-F 0 "Condensateur13" H 7650 4625 50  0000 C CNN
-F 1 "100 pF" H 7650 4534 50  0000 C CNN
-F 2 "Kicad-Empreintes:condensateur_0805" H 7650 4200 50  0001 C CNN
-F 3 "" H 7650 4400 50  0001 C CNN
-	1    7650 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L condensateur_0805:C Condensateur?
-U 1 1 5D6353BB
-P 7650 4000
-AR Path="/5D6353BB" Ref="Condensateur?"  Part="1" 
-AR Path="/5D63056E/5D6353BB" Ref="Condensateur5"  Part="1" 
-AR Path="/5D64F72B/5D6353BB" Ref="Condensateur?"  Part="1" 
-AR Path="/5D655E6A/5D6353BB" Ref="Condensateur12"  Part="1" 
-F 0 "Condensateur12" H 7650 4225 50  0000 C CNN
-F 1 "220 pF" H 7650 4134 50  0000 C CNN
-F 2 "Kicad-Empreintes:condensateur_0805" H 7650 3800 50  0001 C CNN
-F 3 "" H 7650 4000 50  0001 C CNN
-	1    7650 4000
-	1    0    0    -1  
-$EndComp
-Text HLabel 1000 3500 0    50   Input ~ 0
+Text HLabel 1000 3500 0    50   Input ~ 10
 Input
-Text HLabel 10500 3500 2    50   Input ~ 0
+Text HLabel 10500 3500 2    50   Input ~ 10
 Output
 Wire Wire Line
 	2500 3000 3200 3000
 Wire Wire Line
-	3400 2650 3200 2650
-Wire Wire Line
 	3200 2650 3200 3000
-Connection ~ 3200 3000
-Wire Wire Line
-	3200 3000 3400 3000
 Wire Wire Line
 	3900 2650 4200 2650
 Wire Wire Line
@@ -216,13 +157,14 @@ Wire Wire Line
 	6500 3000 4200 3000
 NoConn ~ 6100 3500
 $Comp
-L power:GND #PWR06
+L power:GND #PWR038
 U 1 1 5D64736D
 P 6500 3700
-AR Path="/5D63056E/5D64736D" Ref="#PWR06"  Part="1" 
+AR Path="/5D63056E/5D64736D" Ref="#PWR038"  Part="1" 
 AR Path="/5D64F72B/5D64736D" Ref="#PWR?"  Part="1" 
-AR Path="/5D655E6A/5D64736D" Ref="#PWR09"  Part="1" 
-F 0 "#PWR09" H 6500 3450 50  0001 C CNN
+AR Path="/5D655E6A/5D64736D" Ref="#PWR?"  Part="1" 
+AR Path="/5D62740D/5D64736D" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 6500 3450 50  0001 C CNN
 F 1 "GND" H 6505 3527 50  0000 C CNN
 F 2 "" H 6500 3700 50  0001 C CNN
 F 3 "" H 6500 3700 50  0001 C CNN
@@ -230,13 +172,14 @@ F 3 "" H 6500 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L power:GND #PWR037
 U 1 1 5D6485D7
 P 5000 3300
-AR Path="/5D63056E/5D6485D7" Ref="#PWR05"  Part="1" 
+AR Path="/5D63056E/5D6485D7" Ref="#PWR037"  Part="1" 
 AR Path="/5D64F72B/5D6485D7" Ref="#PWR?"  Part="1" 
-AR Path="/5D655E6A/5D6485D7" Ref="#PWR08"  Part="1" 
-F 0 "#PWR08" H 5000 3050 50  0001 C CNN
+AR Path="/5D655E6A/5D6485D7" Ref="#PWR?"  Part="1" 
+AR Path="/5D62740D/5D6485D7" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 5000 3050 50  0001 C CNN
 F 1 "GND" H 5005 3127 50  0000 C CNN
 F 2 "" H 5000 3300 50  0001 C CNN
 F 3 "" H 5000 3300 50  0001 C CNN
@@ -266,13 +209,14 @@ Connection ~ 5000 4000
 Wire Wire Line
 	5000 4000 2500 4000
 $Comp
-L power:GND #PWR04
+L power:GND #PWR036
 U 1 1 5D64B6FC
 P 3500 6000
-AR Path="/5D63056E/5D64B6FC" Ref="#PWR04"  Part="1" 
+AR Path="/5D63056E/5D64B6FC" Ref="#PWR036"  Part="1" 
 AR Path="/5D64F72B/5D64B6FC" Ref="#PWR?"  Part="1" 
-AR Path="/5D655E6A/5D64B6FC" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 3500 5750 50  0001 C CNN
+AR Path="/5D655E6A/5D64B6FC" Ref="#PWR?"  Part="1" 
+AR Path="/5D62740D/5D64B6FC" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 3500 5750 50  0001 C CNN
 F 1 "GND" H 3505 5827 50  0000 C CNN
 F 2 "" H 3500 6000 50  0001 C CNN
 F 3 "" H 3500 6000 50  0001 C CNN
@@ -283,13 +227,70 @@ Wire Wire Line
 	3500 6000 3500 5500
 Wire Wire Line
 	3500 5500 4000 5500
-Text HLabel 4000 6500 3    50   Input ~ 0
+Text HLabel 4000 6500 3    50   Input ~ 10
 GND
 Wire Wire Line
 	4000 5500 4000 6500
 Connection ~ 4000 5500
 Wire Wire Line
 	4000 5500 4500 5500
-Text Label 4500 5500 2    50   ~ 0
+Text Label 4500 5500 2    50   ~ 10
 GND
+Connection ~ 3200 3000
+Wire Wire Line
+	3200 3000 3400 3000
+Wire Wire Line
+	3400 2650 3200 2650
+$Comp
+L condensateur_0805:Condensateur C3
+U 1 1 5D620EBE
+P 3650 2650
+AR Path="/5D63056E/5D620EBE" Ref="C3"  Part="1" 
+AR Path="/5D62740D/5D620EBE" Ref="C10"  Part="1" 
+F 0 "C10" H 3650 2875 50  0000 C CNN
+F 1 "100 pF" H 3650 2784 50  0000 C CNN
+F 2 "Kicad-Empreintes:condensateur_0805" H 3650 2450 50  0001 C CNN
+F 3 "" H 3650 2650 50  0001 C CNN
+	1    3650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L condensateur_0805:Condensateur C4
+U 1 1 5D621B16
+P 3650 3000
+AR Path="/5D63056E/5D621B16" Ref="C4"  Part="1" 
+AR Path="/5D62740D/5D621B16" Ref="C11"  Part="1" 
+F 0 "C11" H 3650 3225 50  0000 C CNN
+F 1 "220 pF" H 3650 3134 50  0000 C CNN
+F 2 "Kicad-Empreintes:condensateur_0805" H 3650 2800 50  0001 C CNN
+F 3 "" H 3650 3000 50  0001 C CNN
+	1    3650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L condensateur_0805:Condensateur C5
+U 1 1 5D6255B9
+P 7650 4000
+AR Path="/5D63056E/5D6255B9" Ref="C5"  Part="1" 
+AR Path="/5D62740D/5D6255B9" Ref="C12"  Part="1" 
+F 0 "C12" H 7650 4225 50  0000 C CNN
+F 1 "100 pF" H 7650 4134 50  0000 C CNN
+F 2 "Kicad-Empreintes:condensateur_0805" H 7650 3800 50  0001 C CNN
+F 3 "" H 7650 4000 50  0001 C CNN
+	1    7650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L condensateur_0805:Condensateur C6
+U 1 1 5D6255BF
+P 7650 4400
+AR Path="/5D63056E/5D6255BF" Ref="C6"  Part="1" 
+AR Path="/5D62740D/5D6255BF" Ref="C13"  Part="1" 
+F 0 "C13" H 7650 4625 50  0000 C CNN
+F 1 "220 pF" H 7650 4534 50  0000 C CNN
+F 2 "Kicad-Empreintes:condensateur_0805" H 7650 4200 50  0001 C CNN
+F 3 "" H 7650 4400 50  0001 C CNN
+	1    7650 4400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
