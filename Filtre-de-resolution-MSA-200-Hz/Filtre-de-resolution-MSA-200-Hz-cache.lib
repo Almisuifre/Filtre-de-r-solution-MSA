@@ -1,0 +1,163 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connecteurs_Connecteur2Pin
+#
+DEF ~Connecteurs_Connecteur2Pin P 0 40 Y Y 1 F N
+F0 "P" 100 200 50 H V C CNN
+F1 "Connecteurs_Connecteur2Pin" -100 300 50 H I C CNN
+F2 "Kicad-Empreintes:Connec_Mal_2-54_1x2" 100 0 50 H I C CNN
+F3 "" 100 0 50 H I C CNN
+DRAW
+A 150 -100 50 901 -901 0 1 0 N 150 -50 150 -150
+A 150 100 50 901 -901 0 1 0 N 150 150 150 50
+X ~ 1 -100 100 200 R 50 50 1 1 I
+X ~ 2 -100 -100 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Ferite-bead_FeriteBead
+#
+DEF ~Ferite-bead_FeriteBead FB 0 40 Y Y 1 F N
+F0 "FB" 0 100 50 H V C CNN
+F1 "Ferite-bead_FeriteBead" 0 -100 50 H I C CNN
+F2 "Kicad-Empreintes:FB_0805" 50 -200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 50 150 -50 0 1 20 f
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 350 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# QuartzMSA_Quartz
+#
+DEF QuartzMSA_Quartz X 0 40 Y Y 1 F N
+F0 "X" -50 150 50 H V C CNN
+F1 "QuartzMSA_Quartz" 0 -150 50 H V C CNN
+F2 "Kicad-Empreintes:quartz-HC48_HC49" 0 -250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 100 -100 -100 0 1 20 N
+S -50 50 50 -50 0 1 20 F
+S 100 100 100 -100 0 1 20 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SMA_SMA
+#
+DEF ~SMA_SMA P 0 40 Y Y 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "SMA_SMA" 0 250 50 H I C CNN
+F2 "Kicad-Empreintes:SMA_Molex_73251-2200_Horizontal" -150 350 50 H I C CNN
+F3 "" -150 350 50 H I C CNN
+DRAW
+A -2 0 71 1636 0 1 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 1 1 10 N 70 0 -70 -20
+C 0 0 20 1 1 8 N
+P 2 1 1 0 -100 0 -20 0 N
+P 2 1 1 0 0 -100 0 -70 N
+X In 1 -200 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SOT-23_OPA356
+#
+DEF SOT-23_OPA356 IC 0 40 Y Y 1 F N
+F0 "IC" -350 -450 50 H V C CNN
+F1 "SOT-23_OPA356" -350 450 50 H V C CNN
+F2 "Kicad-Empreintes:SOT-23" 0 800 50 H I C CNN
+F3 "" 100 -200 50 H I C CNN
+DRAW
+P 4 0 1 20 -300 350 -300 -350 400 0 -300 350 f
+X Out 1 600 0 200 L 50 50 1 1 O
+X V- 2 0 -400 200 U 50 50 1 1 W
+X +In 3 -500 100 200 R 50 50 1 1 I
+X -In 4 -500 -100 200 R 50 50 1 1 I
+X V+ 5 0 400 200 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Transformateur_Transformateur
+#
+DEF Transformateur_Transformateur T 0 40 Y Y 1 F N
+F0 "T" -50 250 50 H V C CNN
+F1 "Transformateur_Transformateur" 0 -250 50 H V C CNN
+F2 "Kicad-Empreintes:T1-1I-KK81_plus" -150 -100 50 H I C CNN
+F3 "" -150 -100 50 H I C CNN
+DRAW
+A -100 -125 25 -899 899 0 1 20 N -100 -150 -100 -100
+A -100 -75 25 -899 899 0 1 20 N -100 -100 -100 -50
+A -100 -25 25 -899 899 0 1 20 N -100 -50 -100 0
+A -100 25 25 -899 899 0 1 20 N -100 0 -100 50
+A -100 75 25 -899 899 0 1 20 N -100 50 -100 100
+A -100 125 25 -899 899 0 1 20 N -100 100 -100 150
+A 100 -125 25 901 -901 0 1 20 N 100 -100 100 -150
+A 100 -100 0 0 0 0 1 20 N 100 -100 100 -100
+A 100 -75 25 901 -901 0 1 20 N 100 -50 100 -100
+A 100 -25 25 901 -901 0 1 20 N 100 0 100 -50
+A 100 25 25 901 -901 0 1 20 N 100 50 100 0
+A 100 75 25 901 -901 0 1 20 N 100 100 100 50
+A 100 125 25 901 -901 0 1 20 N 100 150 100 100
+P 2 0 1 20 -150 -150 -100 -150 N
+P 2 0 1 20 -150 150 -100 150 N
+P 2 0 1 20 -50 200 -50 -200 N
+P 2 0 1 20 50 200 50 -200 N
+P 2 0 1 20 100 -150 150 -150 N
+P 2 0 1 20 100 0 150 0 N
+P 2 0 1 20 100 150 150 150 N
+X ~ 1 350 150 200 L 50 50 1 1 I
+X ~ 2 350 0 200 L 50 50 1 1 I
+X ~ 3 350 -150 200 L 50 50 1 1 I
+X ~ 4 -350 -150 200 R 50 50 1 1 I
+X ~ 5 -350 0 200 R 50 50 1 1 N
+X ~ 6 -350 150 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# condensateur_0805_C
+#
+DEF condensateur_0805_C Condensateur 0 40 Y Y 1 F N
+F0 "Condensateur" 0 -100 50 H V C CNN
+F1 "condensateur_0805_C" 0 100 50 H V C CNN
+F2 "Kicad-Empreintes:condensateur_0805" 0 -200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 20 -50 50 -50 -50 N
+P 2 0 1 20 50 50 50 -50 N
+X ~ 1 -250 0 200 R 50 50 1 1 I
+X ~ 2 250 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# resistance_0805_Resistance
+#
+DEF resistance_0805_Resistance R 0 40 Y Y 1 F N
+F0 "R" -50 100 50 H V C CNN
+F1 "resistance_0805_Resistance" 0 -100 50 H V C CNN
+F2 "Kicad-Empreintes:resistance_0805" 0 -200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 50 100 -50 0 1 20 f
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connecteur2Pin
+#
+DEF ~Connecteur2Pin P 0 40 Y Y 1 F N
+F0 "P" 100 200 50 H V C CNN
+F1 "Connecteur2Pin" -100 300 50 H I C CNN
+F2 "Kicad-Empreintes:Connec_Mal_2-54_1x2" 100 0 50 H I C CNN
+F3 "" 100 0 50 H I C CNN
+DRAW
+A 150 -100 50 901 -901 0 1 0 N 150 -50 150 -150
+A 150 100 50 901 -901 0 1 0 N 150 150 150 50
+X ~ 1 -100 100 200 R 50 50 1 1 I
+X ~ 2 -100 -100 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

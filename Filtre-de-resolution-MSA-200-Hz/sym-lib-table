@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name condensateur_0805)(type Legacy)(uri C:/Users/Alexandre/Documents/GitHub/Filtre-de-resolution-MSA/Bibliotheque-Kicad-Schema/condensateur_0805.lib)(options "")(descr ""))
+  (lib (name Ferite-bead)(type Legacy)(uri C:/Users/Alexandre/Documents/GitHub/Filtre-de-resolution-MSA/Bibliotheque-Kicad-Schema/Ferite-bead.lib)(options "")(descr ""))
+  (lib (name QuartzMSA)(type Legacy)(uri C:/Users/Alexandre/Documents/GitHub/Filtre-de-resolution-MSA/Bibliotheque-Kicad-Schema/QuartzMSA.lib)(options "")(descr ""))
+  (lib (name resistance_0805)(type Legacy)(uri C:/Users/Alexandre/Documents/GitHub/Filtre-de-resolution-MSA/Bibliotheque-Kicad-Schema/resistance_0805.lib)(options "")(descr ""))
+  (lib (name SMA)(type Legacy)(uri C:/Users/Alexandre/Documents/GitHub/Filtre-de-resolution-MSA/Bibliotheque-Kicad-Schema/SMA.lib)(options "")(descr ""))
+  (lib (name SOT-23)(type Legacy)(uri C:/Users/Alexandre/Documents/GitHub/Filtre-de-resolution-MSA/Bibliotheque-Kicad-Schema/SOT-23.lib)(options "")(descr ""))
+  (lib (name Transformateur)(type Legacy)(uri C:/Users/Alexandre/Documents/GitHub/Filtre-de-resolution-MSA/Bibliotheque-Kicad-Schema/Transformateur.lib)(options "")(descr ""))
+  (lib (name Connecteurs)(type Legacy)(uri C:/Users/Alexandre/Documents/GitHub/Filtre-de-resolution-MSA/Bibliotheque-Kicad-Schema/Connecteurs.lib)(options "")(descr ""))
+)

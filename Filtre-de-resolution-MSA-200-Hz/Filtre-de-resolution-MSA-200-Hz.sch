@@ -1,0 +1,163 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SMA:SMA P1
+U 1 1 5D619AB4
+P 1000 3000
+F 0 "P1" H 928 3165 50  0000 C CNN
+F 1 "SMA" H 1000 3250 50  0001 C CNN
+F 2 "Kicad-Empreintes:SMA_Molex_73251-2200_Horizontal" H 850 3350 50  0001 C CNN
+F 3 "" H 850 3350 50  0001 C CNN
+	1    1000 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L condensateur_0805:C Condensateur1
+U 1 1 5D61AF18
+P 1750 3000
+F 0 "Condensateur1" H 1750 3225 50  0000 C CNN
+F 1 "100 nF" H 1750 3134 50  0000 C CNN
+F 2 "Kicad-Empreintes:condensateur_0805" H 1750 2800 50  0001 C CNN
+F 3 "" H 1750 3000 50  0001 C CNN
+	1    1750 3000
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 2500 2500 1000 1000
+U 5D63056E
+F0 "Cellule-Filtre" 50
+F1 "Cellule-Filtre.sch" 50
+F2 "Input" I L 2500 3000 50 
+F3 "Output" I R 3500 3000 50 
+F4 "GND" I R 3500 3350 50 
+$EndSheet
+$Comp
+L SMA:SMA P3
+U 1 1 5D6506DD
+P 10700 3000
+F 0 "P3" H 10800 2938 50  0000 L CNN
+F 1 "SMA" H 10700 3250 50  0001 C CNN
+F 2 "Kicad-Empreintes:SMA_Molex_73251-2200_Horizontal" H 10550 3350 50  0001 C CNN
+F 3 "" H 10550 3350 50  0001 C CNN
+	1    10700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L condensateur_0805:C Condensateur2
+U 1 1 5D6506E3
+P 9750 3000
+F 0 "Condensateur2" H 9750 3225 50  0000 C CNN
+F 1 "100 nF" H 9750 3134 50  0000 C CNN
+F 2 "Kicad-Empreintes:condensateur_0805" H 9750 2800 50  0001 C CNN
+F 3 "" H 9750 3000 50  0001 C CNN
+	1    9750 3000
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 5000 2500 1000 1000
+U 5D653437
+F0 "AmplificateurRF" 50
+F1 "AmplificateurRF.sch" 50
+F2 "Input" I L 5000 3000 50 
+F3 "Output" I R 6000 3000 50 
+F4 "GND" I L 5000 3450 50 
+F5 "5V" I L 5000 3350 50 
+$EndSheet
+$Sheet
+S 8000 2500 1000 1000
+U 5D655E6A
+F0 "sheet5D655E65" 50
+F1 "Cellule-Filtre.sch" 50
+F2 "Input" I L 8000 3000 50 
+F3 "Output" I R 9000 3000 50 
+F4 "GND" I R 9000 3350 50 
+$EndSheet
+Wire Wire Line
+	3500 3000 5000 3000
+Wire Wire Line
+	6000 3000 8000 3000
+Wire Wire Line
+	9000 3000 9500 3000
+Wire Wire Line
+	10000 3000 10500 3000
+$Comp
+L power:GND #PWR03
+U 1 1 5D66BF07
+P 10700 3350
+F 0 "#PWR03" H 10700 3100 50  0001 C CNN
+F 1 "GND" H 10705 3177 50  0000 C CNN
+F 2 "" H 10700 3350 50  0001 C CNN
+F 3 "" H 10700 3350 50  0001 C CNN
+	1    10700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 3200 10700 3350
+$Comp
+L power:GND #PWR01
+U 1 1 5D66C137
+P 1000 3350
+F 0 "#PWR01" H 1000 3100 50  0001 C CNN
+F 1 "GND" H 1005 3177 50  0000 C CNN
+F 2 "" H 1000 3350 50  0001 C CNN
+F 3 "" H 1000 3350 50  0001 C CNN
+	1    1000 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3200 1000 3350
+Wire Wire Line
+	1200 3000 1500 3000
+Wire Wire Line
+	2000 3000 2500 3000
+$Comp
+L Connecteurs:Connecteur2Pin P2
+U 1 1 5D66DD65
+P 4600 5600
+F 0 "P2" V 4617 5422 50  0000 R CNN
+F 1 "Connecteur2Pin" H 4500 5900 50  0001 C CNN
+F 2 "Kicad-Empreintes:Connec_Mal_2-54_1x2" H 4700 5600 50  0001 C CNN
+F 3 "" H 4700 5600 50  0001 C CNN
+	1    4600 5600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4500 5500 4500 3350
+Wire Wire Line
+	4700 5500 4700 5000
+Wire Wire Line
+	4700 3450 5000 3450
+Wire Wire Line
+	4700 5000 5000 5000
+Wire Wire Line
+	5000 5000 5000 5100
+Connection ~ 4700 5000
+Wire Wire Line
+	4700 5000 4700 3450
+$Comp
+L power:GND #PWR02
+U 1 1 5D66FB41
+P 5000 5100
+F 0 "#PWR02" H 5000 4850 50  0001 C CNN
+F 1 "GND" H 5005 4927 50  0000 C CNN
+F 2 "" H 5000 5100 50  0001 C CNN
+F 3 "" H 5000 5100 50  0001 C CNN
+	1    5000 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3350 5000 3350
+$EndSCHEMATC

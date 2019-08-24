@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Quartz
+#
+DEF Quartz X 0 40 Y Y 1 F N
+F0 "X" -50 150 50 H V C CNN
+F1 "Quartz" 0 -150 50 H V C CNN
+F2 "Kicad-Empreintes:quartz-HC48_HC49" 0 -250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 100 -100 -100 0 1 20 N
+S -50 50 50 -50 0 1 20 F
+S 100 100 100 -100 0 1 20 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

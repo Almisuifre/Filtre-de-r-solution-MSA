@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SMA
+#
+DEF ~SMA P 0 40 Y Y 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "SMA" 0 250 50 H I C CNN
+F2 "Kicad-Empreintes:SMA_Molex_73251-2200_Horizontal" -150 350 50 H I C CNN
+F3 "" -150 350 50 H I C CNN
+DRAW
+A -2 0 71 1636 0 1 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 1 1 10 N 70 0 -70 -20
+C 0 0 20 1 1 8 N
+P 2 1 1 0 -100 0 -20 0 N
+P 2 1 1 0 0 -100 0 -70 N
+X In 1 -200 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
