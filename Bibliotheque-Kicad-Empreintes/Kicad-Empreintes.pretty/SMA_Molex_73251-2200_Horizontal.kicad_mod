@@ -1,4 +1,4 @@
-(module SMA_Molex_73251-2200_Horizontal (layer F.Cu) (tedit 5D61812A)
+(module SMA_Molex_73251-2200_Horizontal (layer F.Cu) (tedit 5D66E810)
   (descr https://www.molex.com/webdocs/datasheets/pdf/en-us/0732512200_RF_COAX_CONNECTORS.pdf)
   (tags "SMA THT Female Jack Horizontal")
   (fp_text reference REF** (at -4.9 0 90) (layer F.SilkS)

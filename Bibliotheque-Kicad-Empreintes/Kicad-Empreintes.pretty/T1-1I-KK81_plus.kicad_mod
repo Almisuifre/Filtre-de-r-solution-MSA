@@ -1,8 +1,8 @@
-(module T1-1I-KK81_plus (layer F.Cu) (tedit 5D6152C9)
+(module T1-1I-KK81_plus (layer F.Cu) (tedit 5D66E81E)
   (fp_text reference REF** (at -6.096 -0.508 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value T1-1I-KK81_plus (at 6.096 -0.508 90) (layer F.Fab) hide
+  (fp_text value T1-1I-KK81_plus (at 6.096 -0.508 90) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center -4.572 5.08) (end -4.572 5.588) (layer F.SilkS) (width 0.15))
